@@ -1,0 +1,18 @@
+version: "2.0"
+
+intents:
+  - o_que_eh_doenca_celiaca
+  - cumprimentar
+
+responses:
+  utter_cumprimentar:
+  - text: "Olá"
+
+  utter_o_que_eh_doenca_celiaca:
+  - text: "É uma doença causada pela intolerância ao glúten, de origem imunológica e genética que acomete a mucosa do intestino delgado causando a sua atrofia e, por conseqüência, dificultando a absorção de nutrientes. É uma doença permanente (para toda a vida)."
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
